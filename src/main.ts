@@ -17,11 +17,11 @@ async function bootstrap() {
         swaggerOptions: {
             urls: [
                 {
-                    url: `http://localhost/api/auth/docs-json`,
+                    url: `http://auth-service/api/auth/docs-json`,
                     name: 'AUTH-MICROSERVICE',
                 },
                 {
-                    url: `http://localhost/api/users/docs-json`,
+                    url: `http://users-service/api/users/docs-json`,
                     name: 'USERS-MICROSERVICE',
                 },
             ],
